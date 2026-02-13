@@ -1,0 +1,21 @@
+{
+  "name": "safe-env-node",
+  "version": "1.0.0",
+  "description": "Safe environment variable loader with validation for Node.js",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "keywords": [
+    "env",
+    "environment",
+    "config",
+    "validation",
+    "node",
+    "dotenv",
+    "safe-env"
+  ],
+  "author": "Sankar Rajak",
+  "license": "MIT"
+}

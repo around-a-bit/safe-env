@@ -9,7 +9,15 @@ It validates, parses, and protects your configuration at startup so your app nev
 ## Install
 
 ```bash
-npm install safe-env
+npm install safe-env-node
+```
+
+---
+
+## Info
+
+```bash
+npm info safe-env-node
 ```
 
 ---
@@ -17,7 +25,7 @@ npm install safe-env
 ## Basic Usage
 
 ```js
-import env from "safe-env";
+import env from "safe-env-node";
 
 const config = env({
   PORT: { type: "number", default: 3000 },
@@ -68,7 +76,7 @@ DEBUG=true
 ### Code
 
 ```js
-import env from "safe-env";
+import env from "safe-env-node";
 
 const config = env({
   PORT: "number",
@@ -87,7 +95,7 @@ console.log(config);
 
 ---
 
-## Why safe-env?
+## Why safe-env-node?
 
 - Prevents missing environment variables
 - Converts values to correct data types

@@ -1,4 +1,4 @@
-# safe-env
+# safe-env-node
 
 A tiny, secure environment variable loader with validation for Node.js.
 
@@ -35,7 +35,7 @@ console.log(config);
 You can also use a shorter format:
 
 ```js
-import env from "safe-env";
+import env from "safe-env-node";
 
 const config = env({
   PORT: "number",
